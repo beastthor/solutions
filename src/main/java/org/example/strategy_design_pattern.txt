@@ -1,0 +1,36 @@
+strategy design pattern:
+
+
+strategy design pattern is used when we have multiple algorithm for a specific task and client decides the actual implementation to be used at runtime.
+
+components in strategy design pattern:
+context: it is a class which contains a reference to the strategy interface.
+strategy interface: it is an interface which is used to define a list of methods that can be used by the context class.
+concrete strategy: it is a class which implements the strategy interface.
+
+
+contetx -> obj -> behaviour dynamic / runtime
+
+strategy -> common methods
+
+concrete strategy -> Actual implemetation of algo.
+
+uses:
+we can choose the algo at runtime.
+we can add and remove the algo .
+we test each and every algo in isolation.
+
+*/
+
+disadvantages:
+
+we are seeing the creation of strategy object in the main class
+for that the solution we tried to implemet is using factory design pattern.
+
+after implement the context will take care of creation.
+
+
+*/
+
+
+

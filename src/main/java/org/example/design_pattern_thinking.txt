@@ -1,0 +1,9 @@
+design pattern thinking
+
+whenever you are not understanding any design pattern, just think about the problem and try to solve it using the design pattern. This will help you to understand the design pattern.
+
+try to design the UML diagram , and which class is doing what . This will help you to understand the design pattern.
+
+
+
+

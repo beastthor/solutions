@@ -1,0 +1,22 @@
+For open stack servers:
+
+
+check in the below location for the logs . if you are not able to find in the splunk .
+location: /var/tmp
+take the screenshots after seeing the logs.
+
+for the EDP:
+
+if you see the release cycle .It starts from the SIT.
+
+we go to SIT deployment , view twelve tasks , click on the deploy Artifact , and then view one task, deploy artifact to SIT,
+
+sroll down , you will found the logs.
+
+look for : 200, exceptions, errors ,type vm2 for host names.
+
+take the screenshots after seeing the logs.
+
+
+check for err_msg in the logs.
+

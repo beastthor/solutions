@@ -1,0 +1,32 @@
+For example :
+
+
+Take DDTA as example:
+
+1)Go to consumer and consumer requests
+
+for example one consumer is CMOB
+
+check for CMOB is calling which endpoint . dont give end point to test for the consumers.
+
+
+so Go back  to API consumer guide
+
+1)May be look for each one of the functionality.
+
+2)check and found them where the end point is and let the consumer know which query or functionality to run.
+
+//Now consider easyweb as another consumer
+EZW->DTAP->DTA
+
+Again check the endpoint and go back to consumer guide and look each one of them adn let them know the functionality to run.
+
+// kavitha to let the consumers direct to me for the connectivity testing.
+
+
+
+//DDTAP
+
+DDTAP NEW NEXUS LOCATION
+
+

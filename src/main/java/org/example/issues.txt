@@ -1,0 +1,34 @@
+Issue1 :
+
+client bank accounts are not correct :
+
+
+we are currently seeing an issue in our Sys2 environment when we are pulling client bank accounts from Das API
+below are the accounts that TDM team has confirmed the client has
+
+in which it is expected only having CAD accounts but we are seeing USD accounts as well.
+
+here is the request query param sent from EA to DAS
+
+for the DAS , host is the downstream system that we are calling to get the client bank accounts
+
+so , pull the request that has been sent DAS to host using the keywords that has been used in request query param and see if the request is correct and also response
+from the host to DAS and see if the response is correct.
+
+check it with the host develper to see if the request is correct and also response is correct.
+
+
+
+Issue2 : token is not valid
+
+consumer getting the frozen accounts:
+ask for the status of the API
+look for the logs for clue
+check the request and response
+see if it is further calling downstream API
+if the token issue  is not yours then it might be from theirside .ask them to look at the problem .
+provide the details like endpoint, request and response to the client and ask them to look at the problem.
+
+
+
+

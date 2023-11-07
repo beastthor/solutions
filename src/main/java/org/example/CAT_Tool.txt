@@ -1,0 +1,40 @@
+Certification Assessment Tool(CAT):
+
+The Certtification assessment tool is a node.js command line tool that is designed to reduce API certification
+timeline and cost. The CAT autogenerates an audit report and an assessment report for the API, when run against
+the API source code.
+
+CAT can be run by LoB API developers during the development, to understand the API certification readiness.when
+the CAT passes certification, the API can be submitted to API mangement team. API management consultants run the CAT
+tool to generate the digitally signed certificate when the assessment passess. The digitally signed certificate is
+pushed to the Bitbucket indicating the API is certified and ready for production.
+
+## Prerequisites
+  Nodejs 16.3.0
+    npm 7.15.1
+    Git Setup
+
+## Installation
+   npm install -g certify-api@1.0.19 --registry `https://artifactory.abc.com/artifactory/api/npm/npm-repo/
+
+   npm list -g : to check the version of the tool installed
+
+   fork the repo which was given by the API management team
+
+   receive the manifest file from the API management team and place it in the root folder called config .
+
+   run the command:
+   set CONFIG=PATH OF THE CONFIG FILE
+   SET CERT_REPO=YOUR FORK REPO
+
+    certify-api pretest
+    certify-api request-certification.
+
+    After doing the last command , you will receive a certificate in your forked repo as well as your config
+    folder.
+
+    check it and share it with the API management team.
+    do a pull request from your forked repo to the API management team repo.
+    done.
+
+    ask them to send an official email saying the API is certified and ready for production.

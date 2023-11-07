@@ -1,0 +1,22 @@
+Adapter design pattern has two:
+class Adapter design pattern
+object Adapter design pattern
+
+
+
+the problem we are trying to solve :
+
+we have one class which has  lat, long in string format and we want to convert it to double format for the API
+ which receives lat &long only in this format
+
+ The main problem that we are trying to solve here we are making too incompatible things comaptabile and make it work
+ by adding a class between them .
+
+
+
+ Adaptee is the third party tool which we are trying to use in our application but it is not compatible with our application
+
+ Adapter has a adaptee
+
+
+

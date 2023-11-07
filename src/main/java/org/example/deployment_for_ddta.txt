@@ -1,0 +1,9 @@
+In the edp tile we have to look for anything that was ending with rhel e.just tick those ones.
+
+DDTA RHEL LINUX EDP TILE;
+
+RELEASE BRANCH - RELEASE/EDP_VMC2
+
+DEV LEAD REQUEST WAS ALREADY RAISED FOR ME  -  BY HELENA
+
+

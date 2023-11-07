@@ -1,0 +1,15 @@
+1)At first you will start doing  the development in your local machine.
+2)review it with the senior developer.
+3)After review, and receiving the approval from the senior developer, you will commit the code to your own branch.
+4)After committing the code to your own branch, you will push the code to the remote repository.After pushing the code
+to the remote repository, you will create a pull request to the master branch.
+5)After creating the pull request, the senior developer will review the code and merge it to the master branch.
+6)After merging the code to the master branch,it will automically start the build process.
+7)After the build process is completed, it will automatically deploy the code to the server.
+8)But you have to get the EDP tile from the senior developer.
+9)After receiving the EDP tile, you will continuously watch the build process.
+10)In the middle of the build process, there is a need to do manual clicks.
+11)For that you need to get some credentials to get access to manual clicks . if it is the dev environment.
+12)for the sit environment , it is only the devops team who will have the access to the manual clicks.
+13)After the build process is completed, you will check the application in the server.
+14)If there is any issue, you will fix it and again you will push the code to the remote repository.

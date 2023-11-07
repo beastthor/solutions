@@ -1,0 +1,32 @@
+sample
+
+//CIASN
+
+for me I have to look for API called CIASN and DFTP.
+
+they are -ve cases for CIASN either from host or zos connect;
+
+// DFTP:
+
+DFTP is -ve cases.
+
+firewall request raised by Helena for DFTP for Tony.
+
+The reason is that the DFTP is in the PCI zone . It has a more enhanced security level. we even can't call it in our local.
+
+so we have raise specific firewalls for our individual laptops.
+
+NETP0113444 - due date is monday - tony
+
+preeti to follow up.
+
+PAT has a longer window , so it should be okay.
+
+
+
+
+
+
+
+
+

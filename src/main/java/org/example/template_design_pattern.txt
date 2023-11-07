@@ -1,0 +1,3 @@
+template design pattern:
+
+for the template design pattern you need to have a base class that defines the template method. The template method is a method that defines the steps of the algorithm. The template method calls abstract methods that are implemented in the subclasses. The subclasses implement the abstract methods to define the steps of the algorithm that must be implemented by the subclasses.
